@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <!-- Js -->
+  <script src="components/loader.js"></script>
+  <script src="lib/jquery-3.6.0.min.js"></script>
+  <script src="components/Script.js"></script>
+
+  <!-- Bootstrap and Css -->
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <center><h1><i class="fas fa-map-marked-alt"></i> Busca Cep <i class="fas fa-map-marked-alt"></i></h1></center>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <label for="">Consulte seu Código de Endereçamento Postal:</label>
+          <input type="number" class="form-control" id="cep">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <button class="btn btn-dark btn-block" id="buscar">Buscar</button>
+        </div>
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">CEP:</label>
+        <input type="text" class="form-control" id="CEP" readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">Logradouro:</label>
+        <input type="text" class="form-control" id="Logradouro" readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">Bairro:</label>
+        <input type="text" class="form-control" id="Bairro" readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">Localidade:</label>
+        <input type="text" class="form-control" id="Localidade" readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">UF:</label>
+        <input type="text" class="form-control" id="UF" readonly>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <label for="">DDD:</label>
+        <input type="text" class="form-control" id="DDD" readonly>
+      </div>
+    </div>    
+  </div>
+  <br><br>
+</body>
+</html>
